@@ -29,7 +29,13 @@ Steps to add file or commit
 8. git checkout branchName.(goes to branch which we created).
 9. git push -u origin First (add file to new branch).
 
+If you want to change changes made on file
+1. git add file.txt
+2. git commit -m "".
+3. git push.
 
+To merge 
+1. get merge main
 
 
 
