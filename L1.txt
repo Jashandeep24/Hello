@@ -1,0 +1,30 @@
+Git
+Pull -- Downstream to local(Present Locally)
+Push -- Merge to server(Merge on server)
+Git log ---> see all the commints
+Git status ---> status of file
+Git branch ---> git branch command lets you create, list, rename, and delete branches.
+Git 
+
+
+TFS                           GIT
+Shalvesheet                 Stash ---- table changes 
+ |                             |
+Server                        Locally
+               RollBack
+Commit                    Git revert
+   |                      Git reset
+Changeset ---> no of changes you have commit.
+Check in                  Push
+
+
+Steps to add file or commit
+1. Git add ___.txt ---> file goes to stageing
+2. Git commit -m "Commit message" -----> git push
+
+
+
+Pull request (Stages of file)
+1. Local
+2. Staging 
+3. PushServer
