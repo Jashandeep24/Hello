@@ -4,7 +4,7 @@ Push -- Merge to server(Merge on server)
 Git log ---> see all the commints
 Git status ---> status of file
 Git branch ---> git branch command lets you create, list, rename, and delete branches.
-Git 
+Git convert 
 
 
 TFS                           GIT
@@ -19,8 +19,17 @@ Check in                  Push
 
 
 Steps to add file or commit
-1. Git add ___.txt ---> file goes to stageing
-2. Git commit -m "Commit message" -----> git push
+1. git init (to create a new git resporatory)
+2. Git add ___.txt ---> file goes to stageing
+3. Git commit -m "Commit message" (-m --> stands for message) . -----> git push
+4. git remote add origin https://github.com/Jashandeep24/Hello.git
+5. git branch -M main
+6. git push -u origin main
+7. git branch branchName (create new branch)
+8. git checkout branchName.(goes to branch which we created).
+9. git push -u origin First (add file to new branch).
+
+
 
 
 
